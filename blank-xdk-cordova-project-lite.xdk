@@ -5,7 +5,7 @@
       "type": "Import",
       "src": "",
       "projectGuid": "142cf96f-ba32-415b-93dc-bec10e6d3679",
-      "lastModifiedDate": 1411079370959,
+      "lastModifiedDate": 1412208191026,
       "creationDate": 1394489018036
     },
     "sourceDirectory": "www",
@@ -33,14 +33,14 @@
     "cordovaPlugins": [
       {
         "id": "org.apache.cordova.device",
-        "version": "0.2.5",
+        "version": "0.2.9",
         "selectedState": "Included",
         "data": {},
         "paramvals": {}
       },
       {
         "id": "org.apache.cordova.splashscreen",
-        "version": "0.2.5",
+        "version": "0.3.0",
         "selectedState": "Included",
         "data": {},
         "paramvals": {}
@@ -56,8 +56,8 @@
           "android-targetSdkVersion": "19"
         },
         "isActive_": true,
-        "appName_": "Blank Intel XDK Cordova Project",
-        "appID_": "xdk.intel.blank.project",
+        "appName_": "Blank Intel XDK Cordova Project (Lite)",
+        "appID_": "xdk.intel.blank.project.lite",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -80,8 +80,8 @@
           "android-targetSdkVersion": "19"
         },
         "isActive_": true,
-        "appName_": "Blank Intel XDK Cordova Project",
-        "appID_": "xdk.intel.blank.project",
+        "appName_": "Blank Intel XDK Cordova Project (Lite)",
+        "appID_": "xdk.intel.blank.project.lite",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -103,8 +103,8 @@
           "ios-target": "5"
         },
         "isActive_": true,
-        "appName_": "Blank Intel XDK Cordova Project",
-        "appID_": "xdk.intel.blank.project",
+        "appName_": "Blank Intel XDK Cordova Project (Lite)",
+        "appID_": "xdk.intel.blank.project.lite",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -125,8 +125,8 @@
           "windows-publisher-id": ""
         },
         "isActive_": true,
-        "appName_": "Blank Intel XDK Cordova Project",
-        "appID_": "xdk.intel.blank.project",
+        "appName_": "Blank Intel XDK Cordova Project (Lite)",
+        "appID_": "xdk.intel.blank.project.lite",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],

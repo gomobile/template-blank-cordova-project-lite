@@ -1,11 +1,11 @@
 {
 "reponame":"template-blank-cordova-project-lite",
-"title":"Blank Cordova Project (lite)",
-"tooltip":"Blank template for an Intel XDK Cordova project.",
+"title":"Blank Cordova Starter (lite)",
+"tooltip":"Lite version of the 'Blank Cordova Starter' template for creating an Intel XDK Cordova project.",
 "description":"Start a Cordova project with this blank template. One key file (init-dev.js) contains the initialization code needed to handle an XDK device ready, a Cordova device ready or browser document ready init events in a way that allows you to run your app in any of those environments. See the README.md for details.",
 "articleUrl":"https://github.com/gomobile/template-blank-cordova-project-lite/blob/master/README.md",
-"visible":"true",
+"visible":"false",
 "type":"blankproject",
-"keywords":["Cordova","Blank Project"],
+"keywords":["Apache Cordova API","Blank Project"],
 "highlights" : [""]
 }

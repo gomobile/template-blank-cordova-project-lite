@@ -5,8 +5,8 @@
       "type": "Blank Project",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "blankproject",
-         "projectGuid": "00000000-0000-0000-0000-000000000000",
-      "lastModifiedDate": 1429208424997,
+      "projectGuid": "111d1843-9ad0-44f0-9f6f-e0e710cd8c7d",
+      "lastModifiedDate": 1430027264546,
       "creationDate": 1394489018036
     },
     "XDK-app-designer": "false",
@@ -20,7 +20,7 @@
     "cordovaPlugins": [
       {
         "id": "org.apache.cordova.device",
-         "version": "?",
+        "version": "0.2.13",
         "selectedState": "Included",
         "data": {},
         "paramvals": {},
@@ -29,7 +29,7 @@
       },
       {
         "id": "org.apache.cordova.splashscreen",
-         "version": "?",
+        "version": "0.3.5",
         "selectedState": "Included",
         "data": {},
         "paramvals": {},
@@ -59,8 +59,8 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-         "cordovaCLIVersion_": "?",
-         "crosswalkVersion_": "?",
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "11",
         "appVersion_": "0.0.1",
         "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser.",
          "appAuthor_": "Intel XDK",
@@ -87,8 +87,8 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-         "cordovaCLIVersion_": "?",
-         "crosswalkVersion_": "?",
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "11",
         "appVersion_": "0.0.1",
         "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser.",
          "appAuthor_": "Intel XDK",
@@ -115,8 +115,9 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-         "cordovaCLIVersion_": "?",
-         "crosswalkVersion_": "?",
+        "cordovaCLIVersion_": "4.1.2",
+        "appAuthor_": "Intel XDK",
+        "crosswalkVersion_": "11",
         "appVersion_": "0.0.1",
          "appAuthor_": "Intel XDK",
         "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
@@ -142,20 +143,20 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-         "cordovaCLIVersion_": "?",
-         "crosswalkVersion_": "?",
-         "appAuthor_": "Intel XDK",
-        "appVersion_": "0.0.1",
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "11",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.0.1",
         "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
       },
       "WebApp": {
         "platform_": "webapp",
-         "runtime_": "W3C",
+        "runtime_": "W3C",
         "name_": "WebApp",
         "preferences_": {},
-         "isActive_": false,
+        "isActive_": false,
         "appName_": "blank-xdk-cordova-project-lite",
-        "appID_": "xdk.intel.cordova.template.lite",
+        "appID_": "not.yet.specified",
         "appAccess_": [
           {
             "origin": "*"
@@ -165,18 +166,17 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-         "appAuthor_": "Intel XDK",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
       },
       "Firefox": {
         "platform_": "firefoxos",
-         "runtime_": "W3C on Firefox OS",
+        "runtime_": "W3C on Firefox OS",
         "name_": "Firefox",
         "preferences_": {},
-         "isActive_": false,
+        "isActive_": false,
         "appName_": "blank-xdk-cordova-project-lite",
-        "appID_": "xdk.intel.cordova.template.lite",
+        "appID_": "not.yet.specified",
         "appAccess_": [
           {
             "origin": "*"
@@ -186,18 +186,17 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-         "appAuthor_": "Intel XDK",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
       },
       "Chrome": {
         "platform_": "chromeos",
-         "runtime_": "W3C on Chrome OS",
+        "runtime_": "W3C on Chrome OS",
         "name_": "Chrome",
         "preferences_": {},
-         "isActive_": false,
+        "isActive_": false,
         "appName_": "blank-xdk-cordova-project-lite",
-        "appID_": "xdk.intel.cordova.template.lite",
+        "appID_": "not.yet.specified",
         "appAccess_": [
           {
             "origin": "*"
@@ -207,18 +206,17 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-         "appAuthor_": "Intel XDK",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
       },
       "Facebook": {
         "platform_": "facebook",
-         "runtime_": "W3C on Facebook",
+        "runtime_": "W3C on Facebook",
         "name_": "Facebook",
         "preferences_": {},
-         "isActive_": false,
+        "isActive_": false,
         "appName_": "blank-xdk-cordova-project-lite",
-        "appID_": "xdk.intel.cordova.template.lite",
+        "appID_": "not.yet.specified",
         "appAccess_": [
           {
             "origin": "*"
@@ -228,9 +226,8 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-         "appAuthor_": "Intel XDK",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
       }
     },
     "gameAssetDirectory": "asset",

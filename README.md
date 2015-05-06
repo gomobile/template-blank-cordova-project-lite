@@ -3,6 +3,20 @@ Blank Intel XDK and Apache Cordova Project
 
 See [LICENSE.md](<LICENSE.md>) for license terms and conditions.
 
+Project File Information
+------------------------
+
+The `icon.png` and `screenshot.png` files are not required by your project. They
+are included for use by the Intel XDK template/demo panel and have no use within
+a real app. You can safely delete them from your project directory.
+
+The `cordova.js` script is needed to provide your app with access to Cordova
+APIs. To add Cordova APIs to your application you must add the corresponding
+Cordova plugins. See the *Plugins* section on the **Projects** tab.
+
+Project Details
+---------------
+
 Use this project as a starting point for an Intel XDK or Apache Cordova hybrid
 mobile app. One key file (`init-dev.js`) contains the initialization code needed
 to handle Intel XDK device ready, Cordova device ready or browser document ready
@@ -29,9 +43,9 @@ modify anything in `init-dev.js` to use this code. Also, `init-dev.js` has been
 written so that it is not dependent on any external libraries or specific
 webviews. It has been tested with the following webviews and browsers:
 
--   Android 2.3, 4.0-4.3 and 4.4
+-   Android 2.3, 4.0-4.3, 4.4 and 5.x
 
--   iOS 6 and 7
+-   iOS 6, 7 and 8
 
 -   Windows 8 Phone
 
@@ -57,15 +71,14 @@ lower performance and a reduced feature set).
 There are many comments in the files in this project. Please read those comments
 for details and further documentation. In particular, see the comments in the
 `index.html` file for recommendations on how to load your third-party libraries
-relative to your application code and the special hybrid libraries
-(`intelxdk.js`, `cordova.js` and `xhr.js`).
+relative to your application code and the special Cordova library.
 
 There are a large number of `console.log()` messages contained within
 `init-dev.js`. They can be used to debug initialization problems and understand
 how the file works. It is highly recommended that you leave those
-`console.log()` messages in your app, they will not unduly slow down or burden
+`console.log()` messages in that file, they will not unduly slow down or burden
 your application. Set `dev.LOG = true` to enable the `console.log()` messages in
-`init-dev.js`.
+`init-dev.js` and set it to false for release code, it is normally set to false.
 
 BTW: the "`dev`” prefix refers to "device" in this context, not "develop,"
 because it grew out of a desire to build a more reliable and flexible "device
